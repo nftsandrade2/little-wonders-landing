@@ -42,9 +42,11 @@ const HeroSection = () => {
 
           {/* IMAGEM */}
           <div className="flex-1 flex justify-center">
-            <div className="w-72 h-72 md:w-96 md:h-96 rounded-2xl bg-secondary flex items-center justify-center border border-border">
-              <span className="text-muted-foreground text-sm">Mockup das atividades aqui</span>
-            </div>
+            <img
+              src={heroMockup}
+              alt="90 Atividades Sem Tela - Mockup do produto"
+              className="w-72 md:w-96 rounded-2xl shadow-lg"
+            />
           </div>
         </div>
       </div>
