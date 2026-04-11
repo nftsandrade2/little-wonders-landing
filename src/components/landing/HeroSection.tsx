@@ -27,11 +27,7 @@ const HeroSection = () => {
             </p>
 
             {/* Prova rápida */}
-            <div className="text-sm text-muted-foreground space-y-1">
-              <p>✔ Acesso imediato após a compra</p>
-              <p>✔ Imprima e use no mesmo dia</p>
-              <p>✔ Ideal para crianças de 3 a 8 anos</p>
-            </div>
+            <div className="text-sm text-muted-foreground space-y-1"></div>
           </div>
 
           {/* IMAGEM */}
