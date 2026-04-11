@@ -8,26 +8,30 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
           {/* TEXTO */}
           <div className="flex-1 text-center md:text-left space-y-6">
+            {/* Badge */}
             <span className="inline-block bg-accent/30 text-accent-foreground text-sm font-semibold px-4 py-1.5 rounded-full">
               📄 Atividades Infantis para Imprimir
             </span>
 
-            <h1 className="text-3xl md:text-5xl font-extrabold leading-tight text-foreground">
-              90 Atividades para Manter seu Filho Longe do Celular
-            </h1>
+            {/* TÍTULO COM FUNDO */}
+            <div className="inline-block px-6 py-4 rounded-2xl bg-gradient-to-r from-blue-400 via-green-300 to-yellow-300 shadow-md">
+              <h1 className="text-3xl md:text-5xl font-extrabold leading-tight text-white">
+                90 Atividades para Manter seu Filho Longe do Celular
+              </h1>
+            </div>
 
+            {/* Subtítulo */}
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg mx-auto md:mx-0">
               Atividades prontas para imprimir que ocupam, acalmam e divertem seu filho por horas — sem precisar de
               telas.
             </p>
 
-            {/* PROVA RÁPIDA */}
+            {/* Prova rápida */}
             <div className="text-sm text-muted-foreground space-y-1">
               <p>✔ Acesso imediato após a compra</p>
               <p>✔ Imprima e use no mesmo dia</p>
               <p>✔ Ideal para crianças de 3 a 8 anos</p>
             </div>
-
           </div>
 
           {/* IMAGEM */}
@@ -41,11 +45,11 @@ const HeroSection = () => {
         </div>
 
         {/* CTA */}
-        <div className="flex justify-center pt-8">
+        <div className="flex justify-center pt-10">
           <Button
             variant="cta"
             size="lg"
-            className="px-10 py-6 text-lg font-bold transition-all duration-200 hover:scale-[1.03]"
+            className="px-10 py-6 text-lg font-bold transition-all duration-200 hover:scale-[1.05]"
           >
             QUERO AS ATIVIDADES AGORA
           </Button>
