@@ -22,8 +22,7 @@ const HeroSection = () => {
 
             {/* Subtítulo */}
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg mx-auto md:mx-0">
-              Atividades prontas para imprimir que ocupam, acalmam e divertem seu filho por horas — sem precisar de
-              telas.
+              Atividades prontas para imprimir que ocupam, acalmam e divertem seu filho por horas sem precisar de telas.
             </p>
 
             {/* Prova rápida */}
