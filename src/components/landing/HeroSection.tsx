@@ -28,16 +28,6 @@ const HeroSection = () => {
               <p>✔ Ideal para crianças de 3 a 8 anos</p>
             </div>
 
-            {/* CTA */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start pt-2">
-              <Button
-                variant="cta"
-                size="lg"
-                className="px-10 py-6 text-lg font-bold transition-all duration-200 hover:scale-[1.03]"
-              >
-                QUERO AS ATIVIDADES AGORA
-              </Button>
-            </div>
           </div>
 
           {/* IMAGEM */}
@@ -48,6 +38,17 @@ const HeroSection = () => {
               className="w-72 md:w-96 rounded-2xl shadow-lg"
             />
           </div>
+        </div>
+
+        {/* CTA */}
+        <div className="flex justify-center pt-8">
+          <Button
+            variant="cta"
+            size="lg"
+            className="px-10 py-6 text-lg font-bold transition-all duration-200 hover:scale-[1.03]"
+          >
+            QUERO AS ATIVIDADES AGORA
+          </Button>
         </div>
       </div>
     </section>
