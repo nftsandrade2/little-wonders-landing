@@ -13,8 +13,8 @@ const HeroSection = () => {
               📄 Atividades Infantis para Imprimir
             </span>
 
-            {/* TÍTULO COM FUNDO */}
-            <div className="inline-block px-6 py-4 rounded-2xl bg-gradient-to-r from-blue-400 via-green-300 to-yellow-300 shadow-md">
+            {/* TÍTULO COM FUNDO SÓLIDO */}
+            <div className="inline-block px-6 py-4 rounded-2xl bg-[#F97316] shadow-lg">
               <h1 className="text-3xl md:text-5xl font-extrabold leading-tight text-white">
                 90 Atividades para Manter seu Filho Longe do Celular
               </h1>
